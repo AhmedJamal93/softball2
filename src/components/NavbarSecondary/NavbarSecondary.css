@@ -1,0 +1,14 @@
+.hide {
+    display:none;
+}
+
+.navbarSecondary {
+    display:flex;
+    justify-content: space-between;
+}
+
+.navbarSecondary__option {
+    flex:1;
+    text-align: center;
+    font-weight: bold;
+}

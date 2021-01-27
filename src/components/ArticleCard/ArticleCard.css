@@ -1,0 +1,21 @@
+.articleCard {
+    width:30%;
+    background-color: #0A100D;
+    color:white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.articleCard__img {
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height:200px
+}
+
+.articleCard__title {
+    text-align: center;
+}
+

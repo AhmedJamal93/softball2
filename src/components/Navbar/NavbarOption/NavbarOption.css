@@ -1,0 +1,19 @@
+.navbarOption {
+    flex:1;
+    background-color: #D6D5C9;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+
+.navbarOption:hover {
+    background-color: #0A100D;
+    color:#D6D5C9;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.navbarOption.selected {
+    background-color: #0A100D;
+    color:#D6D5C9;
+    font-size: 20px;
+}

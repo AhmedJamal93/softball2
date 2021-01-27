@@ -1,0 +1,19 @@
+.navbarSecondaryOption {
+    background-color: #0A100D;
+    padding-top:5px;
+    padding-bottom: 5px;
+    color:#D6D5C9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbarSecondaryOption:hover {
+    background-color: #D6D5C9;
+    cursor:pointer;
+    color:black;
+}
+
+.navbarSecondaryOption.selected {
+    background-color: #D6D5C9;
+    color:black;
+}
