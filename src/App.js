@@ -43,41 +43,87 @@ class App extends Component{
   }
 
   render(){
-    return(
-      <div className="app">
-        <Header />
-        <Navbar 
-          handleNavbarChange={this.handleNavbarChange}
-          active={this.state.active}
-        />
-        <NavbarSecondary 
-          show={this.state.show}
-          options={this.state.secondaryOptions}
-          handleSecondaryNavbarChange={this.handleSecondaryNavbarChange}
-          activeSecondary={this.state.activeSecondary}
-        />
-        <div className="content">
-          <ArticleCard 
-            image={Potg}
-            title="Player Of The Game"
+    if(this.state.active == 0){
+      return(
+        <div className="app">
+          <Header />
+          <Navbar 
+            handleNavbarChange={this.handleNavbarChange}
+            active={this.state.active}
           />
-          <ArticleCard 
-            image={Brady}
-            title="Another Ring for Brady?"
+          {/* <NavbarSecondary 
+            show={this.state.show}
+            options={this.state.secondaryOptions}
+            handleSecondaryNavbarChange={this.handleSecondaryNavbarChange}
+            activeSecondary={this.state.activeSecondary}
+          /> */}
+          <div className="content">
+            <ArticleCard 
+              image={Potg}
+              title="Player Of The Game"
+            />
+            <ArticleCard 
+              image={Brady}
+              title="Another Ring for Brady?"
+            />
+            <ArticleCard 
+              image={Team}
+              title="Winning It ALL next season!"  
+            />
+          </div>
+          {/* <div className="data">
+            <Data />
+          </div> */}
+          <div className="footer">
+            <Footer />
+          </div>
+        </div>
+      )
+    }else if(this.state.active == 1){
+      return(
+        <div className="app">
+          <Header />
+          <Navbar 
+            handleNavbarChange={this.handleNavbarChange}
+            active={this.state.active}
           />
-          <ArticleCard 
-            image={Team}
-            title="Winning It ALL next season!"  
+          {/* <NavbarSecondary 
+            show={this.state.show}
+            options={this.state.secondaryOptions}
+            handleSecondaryNavbarChange={this.handleSecondaryNavbarChange}
+            activeSecondary={this.state.activeSecondary}
+          /> */}
+          <div className="data">
+            <Data />
+          </div>
+          <div className="footer">
+            <Footer />
+          </div>
+        </div>
+      )
+    } else {
+      return(
+        <div className="app">
+          <Header />
+          <Navbar 
+            handleNavbarChange={this.handleNavbarChange}
+            active={this.state.active}
           />
+          {/* <NavbarSecondary 
+            show={this.state.show}
+            options={this.state.secondaryOptions}
+            handleSecondaryNavbarChange={this.handleSecondaryNavbarChange}
+            activeSecondary={this.state.activeSecondary}
+          /> */}
+          <div>
+            <h4> Page Under Construction! </h4>
+          </div>
+          <div className="footer">
+            <Footer />
+          </div>
         </div>
-        <div className="data">
-          <Data />
-        </div>
-        <div className="footer">
-          <Footer />
-        </div>
-      </div>
-    )
+      )
+    }
   }
 }
 export default App;

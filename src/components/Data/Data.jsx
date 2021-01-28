@@ -7,7 +7,7 @@ function Data() {
             <Iframe 
                 url={`https://www.mystatsonline.com/ballsports/visitor/league/stats/batter.aspx?IDLeague=55954&iframe=yes`}
                 width="100%"
-                height="450px"
+                height="1000px"
             />
         </div>
     )
