@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import NavbarSecondary from './components/NavbarSecondary/NavbarSecondary';
 import ArticleCard from './components/ArticleCard/ArticleCard';
+import Data from './components/Data/Data';
 import Footer from './components/Footer/Footer';
 import './App.css';
 import { NavbarSecondaryOptions } from './components/NavbarSecondary/SecondaryOptions'
@@ -68,6 +69,9 @@ class App extends Component{
             image={Team}
             title="Winning It ALL next season!"  
           />
+        </div>
+        <div className="data">
+          <Data />
         </div>
         <div className="footer">
           <Footer />

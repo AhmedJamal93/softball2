@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ahmedjamal93.github.io/softball2",
+  "homepage": "https://AhmedJamal93.github.io/softball2",
   "name": "softball",
   "version": "0.1.0",
   "private": false,
@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^12.1.10",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-iframe": "^1.8.0",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
