@@ -9,7 +9,6 @@ function Data() {
                 width="100%"
                 height="1000px"
                 frameBorder={0}
-                styles={{border: "white"}}
             />
         </div>
     )

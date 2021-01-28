@@ -9,7 +9,7 @@ function NavbarSecondaryOption({title, index, handleSecondary, activeSecondary})
     }
 
     return (
-        <div className={`navbarSecondaryOption ${activeSecondary == index && 'selected'}`} onClick={changeIndex}>
+        <div className={`navbarSecondaryOption ${activeSecondary === index && 'selected'}`} onClick={changeIndex}>
             {title}
         </div>
     )

@@ -9,7 +9,7 @@ function NavbarOption({title, index, changeTab, activeTab}) {
     }
 
     return (
-        <div className={`navbarOption ${activeTab == index && 'selected'}`} onClick={changeIndex}>
+        <div className={`navbarOption ${activeTab === index && 'selected'}`} onClick={changeIndex}>
             {title}
         </div>
     )

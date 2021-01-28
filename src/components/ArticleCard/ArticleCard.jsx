@@ -1,7 +1,5 @@
 import React from 'react';
 import './ArticleCard.css';
-import Avatar from '@material-ui/core/Avatar';
-import pic from '../images/ahmed-1.png';
 
 function ArticleCard({image, title}) {
     return (

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
-import NavbarSecondary from './components/NavbarSecondary/NavbarSecondary';
+// import NavbarSecondary from './components/NavbarSecondary/NavbarSecondary';
 import ArticleCard from './components/ArticleCard/ArticleCard';
 import Data from './components/Data/Data';
 import Footer from './components/Footer/Footer';
@@ -43,7 +43,7 @@ class App extends Component{
   }
 
   render(){
-    if(this.state.active == 0){
+    if(this.state.active === 0){
       return(
         <div className="app">
           <Header />
@@ -79,7 +79,7 @@ class App extends Component{
           </div>
         </div>
       )
-    }else if(this.state.active == 1){
+    }else if(this.state.active === 1){
       return(
         <div className="app">
           <Header />

@@ -5,7 +5,7 @@ import './Header.css';
 function Header() {
     return (
         <div className="header">
-            <img src={banner} />
+            <img src={banner} alt="team banner"/>
         </div>
     )
 }
