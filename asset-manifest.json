@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/softball2/static/css/main.ba1dc676.chunk.css",
-    "main.js": "/softball2/static/js/main.06ee8af5.chunk.js",
-    "main.js.map": "/softball2/static/js/main.06ee8af5.chunk.js.map",
+    "main.css": "/softball2/static/css/main.75929074.chunk.css",
+    "main.js": "/softball2/static/js/main.61c10b9b.chunk.js",
+    "main.js.map": "/softball2/static/js/main.61c10b9b.chunk.js.map",
     "runtime-main.js": "/softball2/static/js/runtime-main.820d85dc.js",
     "runtime-main.js.map": "/softball2/static/js/runtime-main.820d85dc.js.map",
     "static/js/2.9bc2bfc3.chunk.js": "/softball2/static/js/2.9bc2bfc3.chunk.js",
     "static/js/2.9bc2bfc3.chunk.js.map": "/softball2/static/js/2.9bc2bfc3.chunk.js.map",
     "index.html": "/softball2/index.html",
-    "static/css/main.ba1dc676.chunk.css.map": "/softball2/static/css/main.ba1dc676.chunk.css.map",
+    "static/css/main.75929074.chunk.css.map": "/softball2/static/css/main.75929074.chunk.css.map",
     "static/js/2.9bc2bfc3.chunk.js.LICENSE.txt": "/softball2/static/js/2.9bc2bfc3.chunk.js.LICENSE.txt",
-    "static/media/ahmed-1.0422d96b.png": "/softball2/static/media/ahmed-1.0422d96b.png",
     "static/media/banner2.1ee24674.png": "/softball2/static/media/banner2.1ee24674.png",
     "static/media/brady.ac5f3183.jpeg": "/softball2/static/media/brady.ac5f3183.jpeg",
+    "static/media/erindodge.9254adb0.png": "/softball2/static/media/erindodge.9254adb0.png",
+    "static/media/kalalaw.a4b8b63c.png": "/softball2/static/media/kalalaw.a4b8b63c.png",
     "static/media/kawhi.1e98557d.jpeg": "/softball2/static/media/kawhi.1e98557d.jpeg",
     "static/media/team.adf8de72.jpeg": "/softball2/static/media/team.adf8de72.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.820d85dc.js",
     "static/js/2.9bc2bfc3.chunk.js",
-    "static/css/main.ba1dc676.chunk.css",
-    "static/js/main.06ee8af5.chunk.js"
+    "static/css/main.75929074.chunk.css",
+    "static/js/main.61c10b9b.chunk.js"
   ]
 }
