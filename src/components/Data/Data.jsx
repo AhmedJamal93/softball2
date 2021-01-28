@@ -8,6 +8,8 @@ function Data() {
                 url={`https://www.mystatsonline.com/ballsports/visitor/league/stats/batter.aspx?IDLeague=55954&iframe=yes`}
                 width="100%"
                 height="1000px"
+                frameBorder={0}
+                styles={{border: "white"}}
             />
         </div>
     )
